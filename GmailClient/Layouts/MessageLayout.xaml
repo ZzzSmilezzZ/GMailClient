@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="GmailClient.Layouts.MessageLayout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GmailClient.Layouts"
+             mc:Ignorable="d" Margin="0,10,0,0" Height="48" Width="1098" Cursor="Hand" >
+    
+    <Grid MouseEnter="Message_MouseEnter" MouseLeave="Message_MouseLeave" >
+        <Image x:Name="OnMessageDeleteButton" Source="../Icons/trashcan.png" Cursor="Hand" Width="25" Height="25" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,127,0" Panel.ZIndex="1" IsEnabled="False" Opacity="0" MouseLeftButtonDown="OnMessageDeleteButton_MouseLeftButtonDown"/>
+        <Border x:Name="MessageBorder" BorderBrush="LightGray" BorderThickness="0.5" CornerRadius="10,10,10,10" Background="White">
+            
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15" Opacity="0.5" RenderingBias="Performance" ShadowDepth="5"/>
+            </Border.Effect>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" x:Name="TestPanel">
+                <TextBlock x:Name="MessageSender"  FontSize="15"  VerticalAlignment="Center" Height="30" Grid.Column="0" Padding="10,0,30,0" Margin="0,0,30,0" Width="152"/>
+                <TextBlock x:Name="MessageSnippet"  FontSize="18" VerticalAlignment="Center" Height="30" Grid.Column="1" Padding="0,0,15,0" Margin="0,0,30,0" Width="763" FontFamily="Times New Roman"/>
+                <TextBlock x:Name="MessageDate" Grid.Column="2" FontSize="15" VerticalAlignment="Center" Height="30" Padding="0,0,15,0" Width="118" />
+            </StackPanel>
+        </Border>
+        
+    </Grid>
+</UserControl>

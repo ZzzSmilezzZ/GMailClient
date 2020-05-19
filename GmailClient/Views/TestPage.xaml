@@ -1,0 +1,13 @@
+﻿<Window x:Class="GmailClient.Views.TestPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GmailClient.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1024"     
+      Title="GMailClient" Loaded="Page_Loaded" ResizeMode="NoResize" Icon="../Icons/GLetter.png">
+    <Grid Background="White" Cursor="Hand">
+        
+    </Grid>
+</Window>

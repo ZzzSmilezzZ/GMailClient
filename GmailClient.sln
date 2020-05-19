@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GmailClient", "GmailClient\GmailClient.csproj", "{39C92F07-7052-44EA-8917-BDBEE4424C22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GmailClientLibrary", "GmailClientLibrary\GmailClientLibrary.csproj", "{B837AFA9-4EB0-42D7-9C2F-677BECAE55AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C92F07-7052-44EA-8917-BDBEE4424C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C92F07-7052-44EA-8917-BDBEE4424C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C92F07-7052-44EA-8917-BDBEE4424C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C92F07-7052-44EA-8917-BDBEE4424C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B837AFA9-4EB0-42D7-9C2F-677BECAE55AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B837AFA9-4EB0-42D7-9C2F-677BECAE55AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B837AFA9-4EB0-42D7-9C2F-677BECAE55AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B837AFA9-4EB0-42D7-9C2F-677BECAE55AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD273D0C-3FAB-40CA-86C3-A37C0B875ED0}
+	EndGlobalSection
+EndGlobal
